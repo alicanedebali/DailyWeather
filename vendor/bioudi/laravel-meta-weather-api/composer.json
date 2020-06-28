@@ -1,0 +1,19 @@
+{
+    "name": "bioudi/laravel-meta-weather-api",
+    "description": "🌦 Simple laravel package Consume the MetaWeather API.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bioudi Mohamed Amine",
+            "email": "bioudiamine@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bioudi\\LaravelMetaWeatherApi\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
